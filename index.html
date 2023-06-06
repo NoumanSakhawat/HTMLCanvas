@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>HTML Canvas</title>
+</head>
+<body>
+  <div class="container">
+    <canvas id="chartCanvas"  width="800" height="400"></canvas>
+  </div>
+
+  <div class="body">
+    <div class="row">
+      <span class="closingPriceDash"></span>
+      <p class="text">Closing Price</p>
+    </div>
+
+    <div class="row">
+      <span class="average"></span>
+      <p class="text">Average</p>
+    </div>
+
+   </div>
+
+   <ul class="list">
+    <h2>Graph Details:</h2>
+    <hr/>
+    <li>The left side of the labels represents the price axis, indicating the value of prices.</li>
+    <hr/>
+    <li>The labels below the graph display the date information, and the dates are determined based on an average date.</li>
+    <hr/>
+    <li>The <span class="blue-line">blue line</span> on the graph corresponds to the closing price data.</li>
+    <hr/>
+    <li>The <span class="pink-line">pink line</span> on the graph represents the average price. It provides an indication of the overall trend or central tendency of the prices.</li>
+    <hr/>
+    <p class="description">These details describe the various components and aspects of the graph, providing a clearer explanation in English.</p>
+  </ul>
+
+  <script src="./src//utils/data.js"type="text/javascript"></script>
+  <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
